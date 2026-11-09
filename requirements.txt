@@ -1,0 +1,7 @@
+# Third-party packages used by fft_image_editor.py and fft_image_gui.py
+# (tested with numpy 2.5.4 and Pillow 13.0.0 on Python 3.12)
+numpy
+Pillow
+
+# The GUI additionally needs tkinter, which is not installed with pip.
+# It ships with most Python installers; on Debian/Ubuntu: sudo apt install python3-tk
